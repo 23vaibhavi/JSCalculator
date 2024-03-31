@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ccffee;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+}
+.cal{
+    /* background: #3a4452; */
+    background:  #006666    ;
+    padding: 30px;
+    border-radius: 30px;
+}
+.cal form input{
+    border: 0px;
+    outline: 0px;
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px;
+}
+form .value{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .value input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input .opra{
+    color: #fff;
+    background: orange;
+}
